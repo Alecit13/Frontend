@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Playfair+Display&display=swap');
+h1{
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    color:#4881A2;
+    text-align: center;
+    background-color: #48A296;
+    text-shadow: 2px 1px 4px #ffffff;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: justify;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.inicio::first-letter{
+    font-size: 80px;
+    float:left;
+    background-color: brown;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color:brown;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color:#48A296;
+}
+.underline{
+    text-decoration: underline;
+}
+.italic{
+    font-style:italic;
+}
+/*Comentarios*/
+.border{
+    border:5px dashed brown;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}

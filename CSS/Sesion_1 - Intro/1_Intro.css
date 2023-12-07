@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h1{
+    color: darkslategray;
+    font-size: 50px;
+    font-family: Impact;
+    text-align: center;
+}
+h2{
+    color:blue;
+}
+#ultimo{
+    color: green;
+}
+h2.AprendiendoCSS{
+    color: yellow;
+}
