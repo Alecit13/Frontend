@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin:0;
+}
+.Primer_parrafo{
+    color:black;
+    background-color: rgb(99, 196, 196);
+    padding: 5px 10px 15px 20px;
+    border:5px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    width: 50px;
+    height:50px;
+    display: inline-block;
+    text-align: center;
+}
+.Segundo_parrafo{
+    color:black;
+    background-color: rgb(42, 189, 42);
+    padding: 10px 5px 20px 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+}
