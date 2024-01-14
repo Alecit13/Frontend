@@ -3,22 +3,77 @@ body{
     background-color: gray;
     font-family: 'Playfair Display', serif;
 }
+/*Menu*/
 .menu{
-    background-color: black; 
-    display: flex;
+    padding: 4px 7px;
+    text-align: center;
+
 }
 .menu a{
     text-decoration: none;
+    display: inline-flex;
     color:white;
-    padding:0 10px;
+    padding:0 50px;
+    background-color: black;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+
 }
 .menu a:hover{
     background-color: white;
     color: black;
 }
-.social{
-    background-color: black;
+.menu a.active{
+    background-color: white;
+    color: black;
 }
+/*Social*/
+.social{
+    padding: 4px 7px;
+}
+.social a {
+    text-decoration: none;
+    display: inline-flex;
+    background-color:black;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.social a.facebook:hover{
+    background-color: #3868ce;
+    color:white;
+}
+.social a.twitter:hover{
+    background-color: #00acee;
+    color:white;
+}
+.social a.instagram:hover{
+    background-color: #d3517d;
+    color:white;
+}
+.social a.youtube:hover{
+    background-color: #ff0000;
+    color:white;
+}
+
+/*Boton*/
 .boton{
+    padding: 4px 7px;
+}
+.boton a{
     background-color: black;
+    display: inline-flex;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 4px 4px 4px 10px;
+}
+.boton a i{
+    padding: 5px;
+}
+.boton a:hover{ 
+    background-color: white;
+    color: red;
 }
